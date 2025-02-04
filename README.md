@@ -1,4 +1,4 @@
-![Bandwidth Banner](./src/images/bandwidth-banner.png)
+![Bandwidth Banner](./src/images/vapewidth-banner.png)
 ___
 Vapewidth is the official Pretendo Hideaway Discord community bot!
 
