@@ -150,7 +150,7 @@ async function modApplicationHandler(interaction) {
 		}
 	]);
 	modApplicationEmbed.setFooter({
-		text: 'Pretendo Network',
+		text: 'Pretendo Hideaway',
 		iconURL: guild.iconURL()
 	});
 	modApplicationEmbed.setTimestamp(Date.now());
