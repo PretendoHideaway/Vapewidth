@@ -83,7 +83,7 @@ async function reportUserHandler(interaction) {
 		}
 	);
 	reportEmbed.setFooter({
-		text: 'Pretendo Network',
+		text: 'Pretendo Hideaway',
 		iconURL: interaction.guild.iconURL()
 	});
 	reportEmbed.setTimestamp(Date.now());
