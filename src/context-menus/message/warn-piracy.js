@@ -20,7 +20,7 @@ async function warnPiracyHandler(interaction) {
 	warnPiracyEmbed.setColor(0xF36F8A);
 	warnPiracyEmbed.setThumbnail('attachment://piracy.png');
 	warnPiracyEmbed.setTitle('Potential Piracy Reported');
-	warnPiracyEmbed.setDescription('A user has reported this message as pertaining to piracy. Pretendo Network does not support piracy of any kind. Talking about piracy is prohibited. This includes, but is not limited to:\n\n- Sharing game/firmware dumps\n- Sharing console SDK (software development kit) leaks/tools\n- Sharing tools used to acquire pirated content (cdn downloads, warez sites, etc)\n\n_This action has been logged. If you believe this to have been done unfairly please contact a staff member_');
+	warnPiracyEmbed.setDescription('A user has reported this message as pertaining to piracy. Pretendo Hideaway does not support sending piracy downloads. Sending links to download pirated content is prohibited. This includes, but is not limited to:\n\n- Sharing game/firmware dumps\n- Sharing console SDK (software development kit) leaks/tools\n\n_This action has been logged. If you believe this to have been done unfairly please contact a staff member_');
 
 	const message = await interaction.channel.messages.fetch(interaction.targetId);
 
@@ -74,7 +74,7 @@ async function warnPiracyHandler(interaction) {
 		}
 	);
 	reportEmbed.setFooter({
-		text: 'Pretendo Network',
+		text: 'Pretendo Hideaway',
 		iconURL: interaction.guild.iconURL()
 	});
 	reportEmbed.setTimestamp(Date.now());
