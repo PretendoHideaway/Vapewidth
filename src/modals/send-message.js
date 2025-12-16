@@ -13,7 +13,7 @@ actionRow.addComponents(payloadTextInput);
 
 const sendMessageModal = new Discord.ModalBuilder();
 sendMessageModal.setCustomId('send-message');
-sendMessageModal.setTitle('Send message as Bandwidth');
+sendMessageModal.setTitle('Send message as Vapewidth');
 sendMessageModal.addComponents(actionRow);
 
 /**
