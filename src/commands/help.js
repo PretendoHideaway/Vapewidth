@@ -18,9 +18,9 @@ async function helpHandler(interaction) {
 
 	const helpEmbed = new Discord.EmbedBuilder();
 	helpEmbed.setColor(0x287E29);
-	helpEmbed.setTitle('Pretendo Network Help');
+	helpEmbed.setTitle('Pretendo Hideaway Help');
 	helpEmbed.setFooter({
-		text: 'Pretendo Network',
+		text: 'Pretendo Hideaway',
 		iconURL: interaction.guild.iconURL()
 	});
 
