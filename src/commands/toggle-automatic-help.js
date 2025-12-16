@@ -35,7 +35,7 @@ const command = new SlashCommandBuilder();
 
 command.setDefaultMemberPermissions(Discord.PermissionFlagsBits.SendMessages);
 command.setName('toggle-automatic-help');
-command.setDescription('Toggle on/off Bandwidth\'s automatic help');
+command.setDescription('Toggle on/off Vapewidth\'s automatic help');
 
 module.exports = {
 	name: command.name,
